@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+
+	while (1) {
+		int x = 0;
+		printf("数値を入力して");
+		scanf("%d", &x);
+
+		printf("%d\n", x);
+		printf("%d\n", x * x);
+		printf("%d\n", x * x * x);
+	}
+	return 0;
+}
