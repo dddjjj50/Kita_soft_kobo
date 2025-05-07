@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+void a(void) {
+	printf("ふるいけや\n");
+	return;
+}
+void b(void) {
+	printf("かわずとびこむ\n");
+	return;
+}
+void c(void) {
+	printf("みずのおと\n");
+	return;
+}
+
+int main(void) {
+	a();
+	b();
+	c();
+	return 0;
+}
