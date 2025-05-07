@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main(void) {
+	int x=0;
+	printf("数値を入力して");
+	scanf("%d", &x);
+
+	printf("x=%d", x);
+
+	return 0;
+}
