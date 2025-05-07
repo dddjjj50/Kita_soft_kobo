@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(void) {
+
+	while (1) {
+
+		int x;
+		printf("数値を入力して");
+		scanf("%d", &x);
+
+		int y;
+		printf("数値を入力して");
+		scanf("%d", &y);
+
+		if (x > y) {
+			printf("%d\n", x);
+		}
+		else if (x < y) {
+			printf("%d\n", y);
+		}
+	}
+
+
+
+
+	return 0;
+}
