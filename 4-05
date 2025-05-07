@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+
+	while (1) {
+
+		int x = 0;
+		printf("数値を入力して");
+		scanf("%d", &x);
+
+		if (x % 2==0) {
+			printf("偶数\n\n" );
+		}
+		else {
+			printf("奇数\n\n" );
+		}
+
+	}
+	return 0;
+}
