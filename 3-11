@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+
+	while (1) {
+		int a = 0;
+		printf("数値を入力して");
+		scanf("%d", &a);
+
+		int b = 0;
+		printf("数値を入力して");
+		scanf("%d", &b);
+
+		int c = (a + b) / 2;
+
+		printf("平均値は%d\n",c) ;
+	}
+
+	return 0;
+}
