@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main(void) {
+
+	while (1) {
+
+		int x = 0;
+		printf("数値を入力して");
+		scanf("%d", &x);
+
+		if (x >= 0 && x % 2 == 0) {	//正、偶数
+			printf("正の偶数\n\n" );
+		}
+		else if (x >= 0 && x % 2 != 0) {	//正、奇数
+			printf("正の奇数\n\n" );
+		}
+		else if (x < 0 && x % 2 == 0) {	//負の偶数
+			printf("負の偶数\n\n" );
+		}
+		else if (x < 0 && x % 2 != 0) {	//負の奇数
+			printf("負の奇数\n\n");
+		}
+		else if (x == 0) {
+			printf("正の偶数\n\n");
+		}
+
+
+
+
+	}
+	return 0;
+}
