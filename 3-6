@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+
+	while (1) {
+		int x = 0;
+
+		printf("数値を入力して");
+		scanf("%d", &x);
+
+		printf("%d,%d,%d", x, x * x, x * x * x);
+
+	}
+
+
+
+	return 0;
+}
