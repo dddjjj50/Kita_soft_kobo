@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+
+	while (1) {
+
+		int x = 0;
+		printf("数値を入力して");
+		scanf("%d", &x);
+
+		if (x >= 60) {
+			printf("合格\n" );
+		}
+		else if (x < 60) {
+			printf("不合格\n");
+		}
+
+
+	}
+	return 0;
+}
