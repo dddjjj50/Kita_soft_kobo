@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+
+	while (1) {
+		int x = 0;
+		printf("年齢を入力して");
+		scanf("%d", &x);
+
+		printf("年齢を訊ね、生まれてから現在までの、おおよその日数は%d\n", x * 365);
+
+	}
+
+	return 0;
+}
