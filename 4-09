@@ -1,0 +1,79 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+
+	while (1) {
+		char day[100];		//日曜/月曜/火曜/水曜/木曜/金曜/土曜
+		char time[100];		//午前/午後/夜間
+
+		printf("曜日を入力して\n");
+		printf("選択肢：日曜/月曜/火曜/水曜/木曜/金曜/土曜\n");
+		printf("⇒　");
+		scanf("%s", day);
+
+		if (strcmp(day, "日曜")==0) {
+			printf("日曜は終日休診です。\n\n");
+		}
+		else if (strcmp(day, "月曜") == 0) {
+			printf("月曜は終日開いています。\n\n");
+		}
+		else if (strcmp(day, "木曜") == 0) {
+			printf("木曜は終日開いています。\n\n");
+		}
+		else {
+			printf("時間帯をを入力して\n");
+			printf("選択肢：午前/午後/夜間\n");
+			printf("⇒　");
+			scanf("%s", time);
+
+			if (strcmp(day, "火曜") == 0) {
+				if (strcmp(time, "午前") == 0) {
+					printf("%s %sは休診です\n\n", day, time);
+				}
+				else if (strcmp(time, "午後") == 0) {
+					printf("%s %sは開いています\n\n", day, time);
+				}
+				else if (strcmp(time, "夜間") == 0) {
+					printf("%s %sは開いています\n\n", day, time);
+				}
+			}
+			else if (strcmp(day, "水曜") == 0) {
+				if (strcmp(time, "午前") == 0) {
+					printf("%s %sは開いています\n\n", day, time);
+				}
+				else if (strcmp(time, "午後") == 0) {
+					printf("%s %sは開いています\n\n", day, time);
+				}
+				else if (strcmp(time, "夜間") == 0) {
+					printf("%s %sは休診です\n\n", day, time);
+				}
+			}
+			else if (strcmp(day, "金曜") == 0) {
+				if (strcmp(time, "午前") == 0) {
+					printf("%s %sは休診です\n\n", day, time);
+				}
+				else if (strcmp(time, "午後") == 0) {
+					printf("%s %sは開いています\n\n", day, time);
+				}
+				else if (strcmp(time, "夜間") == 0) {
+					printf("%s %sは開いています\n\n", day, time);
+				}
+			}
+			else if (strcmp(day, "土曜") == 0) {
+				if (strcmp(time, "午前") == 0) {
+					printf("%s %sは開いています\n\n", day, time);
+				}
+				else if (strcmp(time, "午後") == 0) {
+					printf("%s %sは休診です\n\n", day, time);
+				}
+				else if (strcmp(time, "夜間") == 0) {
+					printf("%s %sは休診です\n\n", day, time);
+				}
+			}
+
+
+		}
+	}
+	return 0;
+}
