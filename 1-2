@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+void aaa(void) {
+	printf("Hello World");
+	return;
+}
+
+int main(void) {
+	aaa();
+}
