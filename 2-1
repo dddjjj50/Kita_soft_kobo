@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+void age(void) {
+	int age2 = 32;
+	printf("%d歳", age2);
+	return;
+}
+int main(void) {
+	age();
+	return 0;
+}
