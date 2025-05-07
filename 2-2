@@ -1,0 +1,6 @@
+#include<stdio.h>
+
+int main(void) {
+	printf("%d年 %d月 %d日", 1993, 03, 02);
+	return 0;
+}
