@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void) {
+
+	while (1) {
+
+		int x;
+		printf("数値を入力して");
+		scanf("%d", &x);
+
+		int y;
+		printf("数値を入力して");
+		scanf("%d", &y);
+
+		if (x > y) {
+			printf("xはyより大きい\n" );
+		}
+
+
+	}
+
+
+
+
+	return 0;
+}
