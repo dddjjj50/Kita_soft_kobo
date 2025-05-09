@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+
+	char a[100];
+	int i = 0;
+	printf("好きな文字列を入力して");
+	scanf("%s", a);
+
+	while (a[i] != '\0') {
+		i++;
+	}
+
+	printf("%sは%d文字", a, i);
+
+	return 0;
+}
