@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main(void) {
+
+	int binary[16];
+	int value;
+	int i;
+
+	scanf("%d", &value);
+	
+	//
+
+	for (i = 15;i >= 0;i--) {
+		binary[i] = value % 2;
+		value /= 2;
+	}
+
+	for (i = 0;i < 16;i++) {
+		printf("%d", binary[i]);
+	}
+
+
+
+}
