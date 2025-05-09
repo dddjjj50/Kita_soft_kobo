@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void) {
+
+	char a = 'A';
+
+	printf("%c", tolower(a));
+
+	return 0;
+}
