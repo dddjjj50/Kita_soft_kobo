@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(void) {
+	int num[10];
+	int i;
+
+	for (i = 0;i < 10;i++) {
+		printf("%dつ目の数字を入力して", i + 1);
+		scanf("%d", &num[i]);
+	}
+	printf("\n入力した数字を2倍すると");
+	for (i = 0;i < 10;i++) {
+		printf("%d\n", num[i]);
+
+	}
+	printf("\nついでにiは「%d」\n\n", i);
+}
