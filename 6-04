@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main(void) {
+	int num[100];
+	int i;
+	int sum;
+	int j;
+
+	for (i = 0, sum = 0;i < 10 && sum<=100;i++) {
+		scanf("%d", &num[i]);
+		sum += num[i];
+	}
+		
+	for (j = 0;j < i;j++) {
+		printf("%d ",num[j]);
+	}
+	
+}
