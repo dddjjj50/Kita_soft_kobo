@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(void) {
+
+	char a = 'a', b = 'b', c = 'c';
+
+	printf("%c%c%c", toupper(a), toupper(b), toupper(c));
+
+
+
+
+
+	return 0;
+}
