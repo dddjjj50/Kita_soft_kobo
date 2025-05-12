@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int myfunc(int num) {
+	return num * num;
+}
+
+int main(void) {
+
+	int num;
+	printf("数値を入力して");
+	scanf("%d", &num);
+	
+	printf("%d", myfunc(num));
+	
+	return 0;
+}
